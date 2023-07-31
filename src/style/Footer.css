@@ -1,0 +1,57 @@
+
+footer{
+    background-color:  rgb(17, 37, 39);;
+   height: 150px;
+   width: 100%;
+   color: rgb(24, 5, 5);
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+   padding: 2rem;
+}
+footer 
+{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+footer h1{
+    font: 700 2rem white;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+footer p{
+   font: 500 1.2rem "Roboto";
+   color: white;
+}
+footer h5{
+    font: 300 2rem "Poppins";
+    margin: 1rem 0;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: -20px;
+}
+.linkBox{
+    display: flex;
+      justify-content: center;
+    align-items: center;
+
+}
+.linkBox a{
+    color: rgb(22, 106, 106);
+    font: 900 1rem "Roboto";
+    margin: 0 2rem 0;
+}
+.linkBox a:hover{
+    cursor: pointer;
+    color: rgb(124, 11, 152);
+}
+svg{
+  color: rgb(71, 130, 79);
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+svg:hover{
+    color: rgb(248, 188, 98);
+}
