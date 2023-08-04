@@ -16,8 +16,11 @@
 }
 
 .heading h1{
-    font:900 3rem "Roboto";
-    color:rgb(177, 133, 52)
+    text-transform: uppercase;
+        font: 900 2.3rem "Roboto";
+        background:url(../assests/textimage1.webp);
+          background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 .heading p{
@@ -39,7 +42,7 @@ height: 400px;}
     width: 100%;
     content: "";
     position: absolute;
-     background: no-repeat center linear-gradient(rgba(26, 25, 30, 0.7), rgba(40, 15, 56, 0.9)), url(../assests/iso-republic-abstract-wallpaper-soft-blur\(1\).jpg);
+     background: no-repeat center linear-gradient(rgba(26, 25, 30, 0.7), rgba(40, 15, 56, 0.9)), url(../assests/bgimage.jpg);
     background-size: cover;
     border-radius:0 0 50px 50px ;
     box-shadow:0 0 10px 0 rgb(242, 242, 242) ;
@@ -49,7 +52,7 @@ height: 400px;}
     width: 100%;
     height: 100vh;
     margin-top: -150px;
-    background-color: rgb(31, 17, 45);
+    background-color: rgb(36, 19, 53);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +98,7 @@ height: 400px;}
 
 .home3{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-color: rgb(31, 17, 45);
     display: flex;
    
@@ -103,7 +106,7 @@ height: 400px;}
 }
 .home3 div{
          width: 60%;
-        height: 70vh;
+        height: 80vh;
         background-color: rgb(201, 228, 234);
         border-radius: 0 300px 300px 0;
         display: flex;
@@ -142,7 +145,7 @@ height: 400px;}
     background-color:rgb(100, 100, 235) ;
     border-radius: 300px 0 0 300px;
     width: 60%;
-    height: 70vh;
+    height: 80vh;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -182,6 +185,6 @@ article{
     filter: invert(1);
 }
 svg{
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
  

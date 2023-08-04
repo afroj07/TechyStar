@@ -5,17 +5,29 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background-color: rgb(174, 243, 251);
+    background-color: rgb(90, 112, 112);
     top: 0%;
-    z-index: 10;
-    box-shadow: 0 0 10px 0 rgb(188, 195, 201);
+     z-index: 10; 
+    box-shadow: 0 0 10px 0 rgb(48, 36, 72);
 
 }
 
 nav h1{
         text-transform: uppercase;
-        font: 500 2rem "Poppins";
-        color: rgb(147, 100, 7);
+        font: 900 2.3rem "Roboto";
+        margin-left: -1rem;
+        background:url(../assests/bgimage.jpg);
+          background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+nav img{
+    background: none;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 5px solid rgb(56, 117, 119); ;
+
 }
 
 nav main{
@@ -25,10 +37,29 @@ nav main{
 }
 
 main a{
-    color: darkblue;
+    color: rgb(8, 13, 56);
     margin: 1rem;
+    transition: 0.3s ease-in-out;
+    font: 600 1rem "Poppins";
 }
 a:hover{
-    color: chocolate;
+    color: rgb(255, 252, 251);
     cursor: pointer;
+    border-bottom: 3px solid rgb(206, 194, 194);
+}
+#bar{
+    display: none;
+    color: black;
+    width: 1.2rem;
+    height: 1.2rem;
+   
+}
+#cross{
+    color: rgb(255, 255, 255);
+
+    width: 1.1rem;
+    height: 1.1rem;
+    font-weight: 400 1rem ;
+    display: none;
+    
 }

@@ -1,0 +1,141 @@
+@media screen and (max-width:820px) {
+    .home3{
+        height: 100vh;
+        >div{
+            height: 100vh;
+            width: 80%;
+           background-color: rgb(201, 228, 234);
+           border-radius: 0 200px 200px 0;
+   > h1{
+       text-transform: uppercase;
+       border-bottom: 2px solid rgb(75, 30, 30);
+       padding: 0.5rem;
+       width: 15rem;
+       color:rgb(75, 30, 30); 
+       text-align: left;
+   }
+   > p{
+       padding: 1rem;
+       padding-top: 2rem;
+       letter-spacing: 0px;
+       word-spacing: 3px;
+   
+      }
+    }
+}
+.brandBox{
+    height: 100vh;
+    width: 80%;
+    border-radius:  200px 0 0 200px;
+font-size: 14px;
+font: 700 1rem "Poppins";
+>article div{
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+  }
+ }
+
+footer 
+{
+   h1{
+    font: 700 1.3rem white;
+    margin: -20px;
+    
+}
+ p{
+   font: 400 1rem "Roboto";
+   color: white;
+   margin-top: 20px;
+}
+ h5{
+    font: 300 1rem "Poppins";
+    margin: 0.5rem 0;
+    margin-top: -20px;
+}
+.linkBox{
+    display: flex;
+      justify-content: center;
+      flex-direction: row;
+    align-items: center;
+
+ a{
+    color: rgb(22, 106, 106);
+    font-size: 14px;
+    font: 500 1rem "Roboto";
+    margin: 0;
+  svg{
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+      p{
+        font-size: 12px;
+        padding: 3px;
+      }
+  }
+  }
+ }
+ .contact{
+   
+    background-color: rgb(47, 198, 168);
+    > main{
+  height: 85vh;
+  width: 90%;
+  padding: 1rem;
+  
+  >form{
+  margin: 1rem;
+  
+  >div{
+    >label{
+      width:40%;
+    }
+    >input{
+      align-self: stretch;
+      width: 500PX;
+      height: 40px;
+    }
+  }
+  
+  }
+    }
+  }
+  .home2 {
+    div{
+     >p{
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      font-size: 14px;
+      font: 500 1.2rem "Roboto";
+      padding: 10px 3px 5px 10px;
+      }
+    }
+  }
+  #bar{
+    display: block;
+    
+  }
+  #cross{
+    display: block;
+  }
+  .headlink{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: flex-start;
+    position: fixed;
+    width: 150px;
+    top: 80px;
+    right: -150px;
+    height: auto;
+    background-color: rgb(103, 137, 136);
+    opacity: 0.9;
+    border-radius:10px 0 0 20px;
+     transition: 1s;
+  }
+   .active{
+    right: 0px;
+  }
+}

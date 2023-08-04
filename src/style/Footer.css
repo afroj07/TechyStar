@@ -37,7 +37,7 @@ footer h5{
     align-items: center;
 
 }
-.linkBox a{
+.linkBox a {
     color: rgb(22, 106, 106);
     font: 900 1rem "Roboto";
     margin: 0 2rem 0;
@@ -46,6 +46,14 @@ footer h5{
     cursor: pointer;
     color: rgb(124, 11, 152);
 }
+.linkBox a p{
+    color: rgb(22, 106, 106);
+    font-weight: 500;
+}
+.linkBox a p:hover{
+    cursor: pointer;
+    color: rgb(248, 188, 98);
+}
 svg{
   color: rgb(71, 130, 79);
     margin-left: 5px;
@@ -53,5 +61,6 @@ svg{
     align-items: center;
 }
 svg:hover{
+    cursor: pointer;
     color: rgb(248, 188, 98);
 }

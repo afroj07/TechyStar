@@ -1,5 +1,4 @@
 import React from 'react'
-import "../style/Footer.css"
 import {AiFillInstagram, AiFillGithub, AiFillYoutube, AiFillLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
@@ -12,10 +11,10 @@ const Footer = () => {
     <div>
         <h5>Follow Us</h5>
         <div className='linkBox'>
-            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillInstagram/>Instagram</a>
-            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillGithub/>Github</a>
-            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillYoutube/>YouTube</a>
-            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillLinkedin/>LinkedIn</a>
+            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillInstagram/><p>Instagram</p></a>
+            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillGithub/><p>Github</p></a>
+            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillYoutube/><p>YouTube</p></a>
+            <a href="https://www.youtube.com/channel/UClkkHEWxSzSi5HIoO9hFt8w" target={"blank"}><AiFillLinkedin/><p>LinkedIn</p></a>
         </div>
     </div>
    </footer>

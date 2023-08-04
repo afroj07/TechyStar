@@ -1,5 +1,4 @@
 import React from 'react'
-import '../style/Home.css'
 import img1 from "../assests/image1.png"
 import cirimage from "../assests/hiclipart.com.png"
 import patternimg from "../assests/hiclipart.com(3).png"
